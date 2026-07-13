@@ -1,0 +1,39 @@
+name: Refresh profile telemetry
+
+on:
+  schedule:
+    # Weekly, Mondays 03:19 UTC — off the :00 spike to avoid queue delays.
+    - cron: "19 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-telemetry
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+
+      - name: Regenerate telemetry
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_profile.py
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet; then
+            echo "No telemetry changes — skipping commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/telemetry.svg README.md
+          git commit -m "chore(profile): refresh development telemetry"
+          git push
