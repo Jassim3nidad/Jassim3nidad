@@ -150,6 +150,8 @@ Latest meaningful transmissions across public systems — dependency-bot noise f
 | `PORTFOLIO` | [jassim3nidad.vercel.app](https://jassim3nidad.vercel.app) |
 | `LINKEDIN` | [linkedin.com/in/jassim-trinidad](https://linkedin.com/in/jassim-trinidad) |
 | `EMAIL` | [trinidad.softwareengr@gmail.com](mailto:trinidad.softwareengr@gmail.com) |
+| `FACEBOOK` | [facebook.com/avoidjassim](https://www.facebook.com/avoidjassim/) |
+| `INSTAGRAM` | [instagram.com/jassim.wav](https://www.instagram.com/jassim.wav/) |
 
 Available for thoughtful collaborations, internships, and systems worth building.
 
