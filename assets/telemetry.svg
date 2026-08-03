@@ -1,6 +1,6 @@
 <svg viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="telTitle telDesc">
 <title id="telTitle">Development telemetry for Jassim3nidad</title>
-<desc id="telDesc">Public repos: 19. Deployed systems: 5. Repos active in the last 90 days: 6. Followers: 16. Top languages by bytes: TypeScript 69.5 percent, PLpgSQL 13.9 percent, JavaScript 7.1 percent. Last sync 2026-07-27 06:42 UTC.</desc>
+<desc id="telDesc">Public repos: 20. Deployed systems: 5. Repos active in the last 90 days: 6. Followers: 14. Top languages by bytes: TypeScript 71.3 percent, PLpgSQL 13.0 percent, JavaScript 6.8 percent. Last sync 2026-08-03 06:35 UTC.</desc>
 <style>.mono{font-family:ui-monospace,'Cascadia Mono','Segoe UI Mono',Menlo,Consolas,'Liberation Mono',monospace;}</style>
 <rect x="1" y="1" width="998" height="398" rx="8" fill="#0B0F14" stroke="#1E2C38" stroke-width="1.5"/>
 <path d="M 14 26 V 14 H 26" fill="none" stroke="#56C8D8" stroke-width="1.5"/>
@@ -8,11 +8,11 @@
 <path d="M 986 374 V 386 H 974" fill="none" stroke="#56C8D8" stroke-width="1.5"/>
 <path d="M 26 386 H 14 V 374" fill="none" stroke="#56C8D8" stroke-width="1.5"/>
 <text x="48" y="38" class="mono" font-size="13" letter-spacing="2" fill="#56C8D8">&#9698; DEVELOPMENT TELEMETRY</text>
-<text x="952" y="38" text-anchor="end" class="mono" font-size="13" letter-spacing="1" fill="#5A6873">LAST SYNC: 2026-07-27 06:42 UTC</text>
+<text x="952" y="38" text-anchor="end" class="mono" font-size="13" letter-spacing="1" fill="#5A6873">LAST SYNC: 2026-08-03 06:35 UTC</text>
 <line x1="48" y1="52" x2="952" y2="52" stroke="#1C2A35" stroke-width="1"/>
 <rect x="48" y="72" width="214" height="74" rx="4" fill="#0E141B" stroke="#1C2A35" stroke-width="1"/>
 <text x="64" y="98" class="mono" font-size="12" letter-spacing="2" fill="#5A6873">PUBLIC REPOS</text>
-<text x="64" y="134" class="mono" font-size="30" font-weight="700" fill="#E6EDF3">19</text>
+<text x="64" y="134" class="mono" font-size="30" font-weight="700" fill="#E6EDF3">20</text>
 <rect x="278" y="72" width="214" height="74" rx="4" fill="#0E141B" stroke="#1C2A35" stroke-width="1"/>
 <text x="294" y="98" class="mono" font-size="12" letter-spacing="2" fill="#5A6873">DEPLOYED SYSTEMS</text>
 <text x="294" y="134" class="mono" font-size="30" font-weight="700" fill="#56D364">5</text>
@@ -21,32 +21,32 @@
 <text x="524" y="134" class="mono" font-size="30" font-weight="700" fill="#E8A33D">6</text>
 <rect x="738" y="72" width="214" height="74" rx="4" fill="#0E141B" stroke="#1C2A35" stroke-width="1"/>
 <text x="754" y="98" class="mono" font-size="12" letter-spacing="2" fill="#5A6873">FOLLOWERS</text>
-<text x="754" y="134" class="mono" font-size="30" font-weight="700" fill="#56C8D8">16</text>
+<text x="754" y="134" class="mono" font-size="30" font-weight="700" fill="#56C8D8">14</text>
 <text x="48" y="186" class="mono" font-size="13" letter-spacing="2" fill="#8B98A5">LANGUAGE DISTRIBUTION // SHARE OF PUBLIC CODE (BYTES)</text>
 <text x="48" y="215" class="mono" font-size="12.5" fill="#8B98A5">TYPESCRIPT</text>
 <rect x="190" y="204" width="560" height="12" rx="3" fill="#141C26"/>
-<rect x="190" y="204" width="389" height="12" rx="3" fill="#56C8D8" opacity="0.85"/>
-<text x="766" y="215" class="mono" font-size="12.5" fill="#E6EDF3">69.5%</text>
+<rect x="190" y="204" width="400" height="12" rx="3" fill="#56C8D8" opacity="0.85"/>
+<text x="766" y="215" class="mono" font-size="12.5" fill="#E6EDF3">71.3%</text>
 <text x="48" y="242" class="mono" font-size="12.5" fill="#8B98A5">PLPGSQL</text>
 <rect x="190" y="231" width="560" height="12" rx="3" fill="#141C26"/>
-<rect x="190" y="231" width="78" height="12" rx="3" fill="#4A90A4" opacity="0.85"/>
-<text x="766" y="242" class="mono" font-size="12.5" fill="#E6EDF3">13.9%</text>
+<rect x="190" y="231" width="73" height="12" rx="3" fill="#4A90A4" opacity="0.85"/>
+<text x="766" y="242" class="mono" font-size="12.5" fill="#E6EDF3">13.0%</text>
 <text x="48" y="269" class="mono" font-size="12.5" fill="#8B98A5">JAVASCRIPT</text>
 <rect x="190" y="258" width="560" height="12" rx="3" fill="#141C26"/>
-<rect x="190" y="258" width="40" height="12" rx="3" fill="#E8A33D" opacity="0.85"/>
-<text x="766" y="269" class="mono" font-size="12.5" fill="#E6EDF3">7.1%</text>
+<rect x="190" y="258" width="38" height="12" rx="3" fill="#E8A33D" opacity="0.85"/>
+<text x="766" y="269" class="mono" font-size="12.5" fill="#E6EDF3">6.8%</text>
 <text x="48" y="296" class="mono" font-size="12.5" fill="#8B98A5">HTML</text>
 <rect x="190" y="285" width="560" height="12" rx="3" fill="#141C26"/>
-<rect x="190" y="285" width="22" height="12" rx="3" fill="#7FB3C8" opacity="0.85"/>
-<text x="766" y="296" class="mono" font-size="12.5" fill="#E6EDF3">3.9%</text>
+<rect x="190" y="285" width="20" height="12" rx="3" fill="#7FB3C8" opacity="0.85"/>
+<text x="766" y="296" class="mono" font-size="12.5" fill="#E6EDF3">3.5%</text>
 <text x="48" y="323" class="mono" font-size="12.5" fill="#8B98A5">CSS</text>
 <rect x="190" y="312" width="560" height="12" rx="3" fill="#141C26"/>
 <rect x="190" y="312" width="13" height="12" rx="3" fill="#3DA8B8" opacity="0.85"/>
-<text x="766" y="323" class="mono" font-size="12.5" fill="#E6EDF3">2.4%</text>
+<text x="766" y="323" class="mono" font-size="12.5" fill="#E6EDF3">2.2%</text>
 <text x="48" y="350" class="mono" font-size="12.5" fill="#8B98A5">OTHER</text>
 <rect x="190" y="339" width="560" height="12" rx="3" fill="#141C26"/>
 <rect x="190" y="339" width="6" height="12" rx="3" fill="#8B98A5" opacity="0.85"/>
-<text x="766" y="350" class="mono" font-size="12.5" fill="#E6EDF3">1.0%</text>
+<text x="766" y="350" class="mono" font-size="12.5" fill="#E6EDF3">1.1%</text>
 <text x="48" y="382" class="mono" font-size="12" letter-spacing="1" fill="#5A6873">SOURCE: GITHUB REST API &#183; OWNED PUBLIC REPOS &#183; NON-FORK &#183; NO THIRD-PARTY STAT SERVICES</text>
 <text x="952" y="382" text-anchor="end" class="mono" font-size="12" letter-spacing="2" fill="#5A6873">TELEMETRY.MOD</text>
 </svg>
